@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sparkle.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_job"
+        android:name="com.example.sparkle.ui.Job.JobFragment"
+        android:label="Post Job"
+        tools:layout="@layout/fragment_job" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.sparkle.ui.Login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/viewJobFragment"
+        android:name="com.example.sparkle.ui.Job.ViewJobFragment"
+        android:label="fragment_view_job"
+        tools:layout="@layout/fragment_view_job" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.sparkle.ui.Login.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.sparkle.ui.backload.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/applyJobFragment"
+        android:name="com.example.sparkle.ui.jobApplyCleaner.ApplyJobFragment"
+        android:label="fragment_apply_job"
+        tools:layout="@layout/fragment_apply_job" />
+
+
+</navigation>

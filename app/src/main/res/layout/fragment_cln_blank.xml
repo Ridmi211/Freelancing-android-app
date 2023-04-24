@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.backload.ClnBlankFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="148dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="4dp"
+            android:src="@mipmap/ic_launcher_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="281dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="112dp"
+            android:fontFamily="cursive"
+            android:text="Sparkle"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="325dp"
+            android:layout_height="166dp"
+            android:layout_marginTop="268dp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="10sp"
+            android:text="Best place to freelancer most convinient and well paid cleaning jobs. Choose job according to your desire from the available 1000+ oppurtunities!"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="287dp"
+            android:layout_height="580dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/cleaningstaff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnFindJob"
+            android:layout_width="243dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="184dp"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:text="Find a job"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/cln_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_job"
+            android:icon="@drawable/ic_baseline_post_add_24"
+            android:title="Post jobs" />
+        <item
+            android:id="@+id/nav_viewJob"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="View jobs" />
+        <item
+            android:id="@+id/nav_accepted_job"
+            android:icon="@drawable/ic_baseline_done_outline_24"
+            android:title="Accepted jobs" />
+        <item
+            android:id="@+id/nav_freelan"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Freelancers" />
+        <item
+            android:id="@+id/cln_job"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Find Jobs" />
+        <item
+            android:id="@+id/h_review"
+            android:icon="@drawable/ic_baseline_rate_review_24"
+            android:title="Reviews" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_transit_enterexit_24"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_baseline_clear_24"
+            android:title="Exit" />
+    </group>
+</menu>
